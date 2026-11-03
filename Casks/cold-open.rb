@@ -1,6 +1,6 @@
 cask "cold-open" do
-  version "0.1.0-beta.8"
-  sha256 "94b9b823b01ba32644da17013a6a9675895da11228a39b14f31d8140617168d8"
+  version "0.1.0-beta.9"
+  sha256 "9f5cd856192c1df76a52b9b079260145bf81e5b9385f8f1551bdf7997d48ed8a"
 
   url "https://github.com/MIM18-code/cold-open/releases/download/v#{version}/ColdOpen-#{version}.dmg"
   name "Cold Open"

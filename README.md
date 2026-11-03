@@ -14,6 +14,8 @@ Recent Homebrew refuses casks from third-party taps until you trust the tap once
 
 Apple Silicon and macOS 14 or later; local table-read voices need macOS 15. Upgrade with `brew upgrade --cask cold-open`. Remove with `brew uninstall --cask cold-open`; add `--zap` to also delete Cold Open's settings and voice packs.
 
+Beta 9 includes the default Parakeet speech model for offline dictation. No separate reader, speech-model download or Terminal setup is needed for basic writing and dictation. Format Draft, local writing AI and table-read voice packs have optional setup in the app.
+
 ## User guide
 
 [Read the Cold Open guide](https://mindinmotionsoftware.com/guides/cold-open/index.html) for setup, screenshots, captioned walkthroughs and troubleshooting. You can also [download the complete guide](https://mindinmotionsoftware.com/downloads/ColdOpen-user-guide.zip) to read it and watch the videos offline.
