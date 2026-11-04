@@ -25,4 +25,9 @@ cask "cold-open" do
     "~/Library/Preferences/tv.mindinmotion.inklot.plist",
     "~/Library/Saved Application State/tv.mindinmotion.inklot.savedState",
   ]
+
+  caveats <<~EOS
+    Setup, screenshots and captioned walkthroughs:
+      https://mindinmotionsoftware.com/guides/cold-open/index.html
+  EOS
 end
