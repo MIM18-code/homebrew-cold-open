@@ -1,6 +1,6 @@
 cask "cold-open" do
-  version "0.1.0-beta.10"
-  sha256 "7336b65bae2c6698317b57771bc66c48373b8269d7214a7306756e2a16e87b02"
+  version "0.1.0-beta.11"
+  sha256 "5ae49444a6c4ed1e621e14db9219b97c04cca8706f47820f5d6736d8e347a7c9"
 
   url "https://github.com/MIM18-code/cold-open/releases/download/v#{version}/ColdOpen-#{version}.dmg"
   name "Cold Open"
@@ -25,9 +25,4 @@ cask "cold-open" do
     "~/Library/Preferences/tv.mindinmotion.inklot.plist",
     "~/Library/Saved Application State/tv.mindinmotion.inklot.savedState",
   ]
-
-  caveats <<~EOS
-    Setup, screenshots and captioned walkthroughs:
-      https://mindinmotionsoftware.com/guides/cold-open/index.html
-  EOS
 end
